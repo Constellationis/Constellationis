@@ -19,16 +19,25 @@
       margin: auto;
     }
 
+    a, a:visited {
+      color: #00f;
+      font-weight: bold;
+      text-decoration-thickness: 0.3em;
+    }
+
+    a:not(:hover) {
+      text-decoration-color: transparent;
+    }
+
     @media (prefers-color-scheme: dark) {
       body {
         background-color: #333;
         color: #eee;
       }
-    }
 
-    a, a:visited {
-      color: #00f;
-      font-weight: bold;
+      a, a:visited {
+        color: #CCB6FD;
+      }
     }
 
     p {
